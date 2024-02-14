@@ -1,0 +1,185 @@
+-I: Adding /home/shared_utilities/amber20/dat/leap/prep to search path.
+-I: Adding /home/shared_utilities/amber20/dat/leap/lib to search path.
+-I: Adding /home/shared_utilities/amber20/dat/leap/parm to search path.
+-I: Adding /home/shared_utilities/amber20/dat/leap/cmd to search path.
+-f: Source leapCys.script.
+
+Welcome to LEaP!
+(no leaprc in search path)
+Sourcing: ./leapCys.script
+----- Source: /home/shared_utilities/amber20/dat/leap/cmd/leaprc.lipid17
+----- Source of /home/shared_utilities/amber20/dat/leap/cmd/leaprc.lipid17 done
+Log file: ./leap.log
+Loading parameters: /home/shared_utilities/amber20/dat/leap/parm/lipid17.dat
+Reading title:
+AMBER Lipid17 v1.1 Force Field, A. Skjevik, C. Dickson, B. Madej, I.R. Gould, R.C. Walker*
+Loading library: /home/shared_utilities/amber20/dat/leap/lib/lipid17.lib
+----- Source: /home/shared_utilities/amber20/dat/leap/cmd/leaprc.DNA.bsc1
+----- Source of /home/shared_utilities/amber20/dat/leap/cmd/leaprc.DNA.bsc1 done
+Log file: ./leap.log
+Loading parameters: /home/shared_utilities/amber20/dat/leap/parm/parm10.dat
+Reading title:
+PARM99 + frcmod.ff99SB + frcmod.parmbsc0 + OL3 for RNA
+Loading library: /home/shared_utilities/amber20/dat/leap/lib/parmBSC1.lib
+Loading parameters: /home/shared_utilities/amber20/dat/leap/parm/frcmod.parmbsc1
+Reading force field modification type file (frcmod)
+Reading title:
+Parmbsc1 force-field for DNA
+----- Source: /home/shared_utilities/amber20/dat/leap/cmd/leaprc.protein.ff19SB
+----- Source of /home/shared_utilities/amber20/dat/leap/cmd/leaprc.protein.ff19SB done
+Log file: ./leap.log
+Loading parameters: /home/shared_utilities/amber20/dat/leap/parm/parm19.dat
+Reading title:
+PARM99 + frcmod.ff99SB + frcmod.parmbsc0 + OL3 for RNA + ff19SB
+Loading parameters: /home/shared_utilities/amber20/dat/leap/parm/frcmod.ff19SB
+Reading force field modification type file (frcmod)
+Reading title:
+ff19SB AA-specific backbone CMAPs for protein 07/25/2019
+Loading library: /home/shared_utilities/amber20/dat/leap/lib/amino19.lib
+Loading library: /home/shared_utilities/amber20/dat/leap/lib/aminoct12.lib
+Loading library: /home/shared_utilities/amber20/dat/leap/lib/aminont12.lib
+----- Source: /home/shared_utilities/amber20/dat/leap/cmd/leaprc.phosaa19SB
+----- Source of /home/shared_utilities/amber20/dat/leap/cmd/leaprc.phosaa19SB done
+Log file: ./leap.log
+Loading parameters: /home/shared_utilities/amber20/dat/leap/parm/frcmod.phosaa19SB
+Reading force field modification type file (frcmod)
+Reading title:
+Updated dihedral parameters for phosphorylated amino acids for use with ff14SB
+Loading library: /home/shared_utilities/amber20/dat/leap/lib/phosaa19SB.lib
+----- Source: /home/shared_utilities/amber20/dat/leap/cmd/leaprc.protein.ff19SB_modAA
+----- Source of /home/shared_utilities/amber20/dat/leap/cmd/leaprc.protein.ff19SB_modAA done
+Log file: ./leap.log
+
+/home/shared_utilities/amber20/bin/teLeap: Warning!
+atom type NF - unknown hybridization sp
+
+/home/shared_utilities/amber20/bin/teLeap: Warning!
+atom type CY - unknown hybridization sp
+
+/home/shared_utilities/amber20/bin/teLeap: Warning!
+atom type NY - unknown hybridization sp
+Loading parameters: /home/shared_utilities/amber20/dat/leap/parm/parm19.dat
+Reading title:
+PARM99 + frcmod.ff99SB + frcmod.parmbsc0 + OL3 for RNA + ff19SB
+Loading parameters: /home/shared_utilities/amber20/dat/leap/parm/frcmod.ff19SB
+Reading force field modification type file (frcmod)
+Reading title:
+ff19SB AA-specific backbone CMAPs for protein 07/25/2019
+Loading parameters: /home/shared_utilities/amber20/dat/leap/parm/frcmod.ff19SBmodAA
+Reading force field modification type file (frcmod)
+Reading title:
+Parameters for Modified Amino acids (Belfon & Simmerling) to be used with leaprc.protein.ff19SB
+Loading library: /home/shared_utilities/amber20/dat/leap/lib/amino19.lib
+Loading library: /home/shared_utilities/amber20/dat/leap/lib/aminoct12.lib
+Loading library: /home/shared_utilities/amber20/dat/leap/lib/aminont12.lib
+Loading library: /home/shared_utilities/amber20/dat/leap/lib/mod_amino19.lib
+----- Source: /home/shared_utilities/amber20/dat/leap/cmd/leaprc.water.opc
+----- Source of /home/shared_utilities/amber20/dat/leap/cmd/leaprc.water.opc done
+Loading library: /home/shared_utilities/amber20/dat/leap/lib/atomic_ions.lib
+Loading library: /home/shared_utilities/amber20/dat/leap/lib/solvents.lib
+Loading parameters: /home/shared_utilities/amber20/dat/leap/parm/frcmod.opc
+Reading force field modification type file (frcmod)
+Reading title:
+Parameters for OPC water (JPCL, 2014, 5 (21), pp 3863–3871) 
+Loading parameters: /home/shared_utilities/amber20/dat/leap/parm/frcmod.ionsjc_tip4pew
+Reading force field modification type file (frcmod)
+Reading title:
+Monovalent ion parameters for Ewald and TIP4P/EW water from Joung & Cheatham JPCB (2008)
+Loading parameters: /home/shared_utilities/amber20/dat/leap/parm/frcmod.ions234lm_126_tip4pew
+Reading force field modification type file (frcmod)
+Reading title:
+Li/Merz ion parameters of divalent to tetravalent ions for TIP4P/EW water model (12-6 normal usage set)
+Using H(N)-modified Bondi radii
+Loading library: /home/shared_utilities/amber20/dat/leap/lib/CO6.off
+Loading parameters: /home/shared_utilities/amber20/dat/leap/parm/frcmod.CO6
+Reading force field modification type file (frcmod)
+Reading title:
+Cobalt hexammine: T.E. Cheatham & P.A. Kollman, Structure 5:1297-1311, 1997
+Loading parameters: /home/shared_utilities/amber20/dat/leap/parm/frcmod.ions1lm_iod
+Reading force field modification type file (frcmod)
+Reading title:
+Li/Merz ion parameters of monovalent ions for TIP3P, SPC/E and TIP4P/EW water models (12-6 IOD set)
+Loading Prep file: ./HDP.prepin
+Loading Prep file: ./HDPNT.prepin
+Loading Prep file: ./HDPCT.prepin
+Loading Prep file: ./ARN.prepin
+Loading Prep file: ./TYN.prepin
+Loading PDB file: ./hipped.tmp
+  total atoms in file: 7051
+  Leap added 12 missing atoms according to residue templates:
+       12 H / lone pairs
+Checking Unit.
+
+/home/shared_utilities/amber20/bin/teLeap: Warning!
+The unperturbed charge of the unit (-13.000000) is not zero.
+
+/home/shared_utilities/amber20/bin/teLeap: Note.
+Ignoring the warning from Unit Checking.
+
+Building topology.
+Building atom parameters.
+Building bond parameters.
+Building angle parameters.
+Building proper torsion parameters.
+Building improper torsion parameters.
+old PREP-specified impropers:
+ <HDP 28>:  -M   CA   N    H   
+ <HDP 28>:  CA   +M   C    O   
+ <HDP 28>:  CG   CE1  ND1  HD1 
+ <HDP 28>:  CE1  CD2  NE2  HE2 
+ <HDP 28>:  CG   NE2  CD2  HD2 
+ <HDP 28>:  ND1  NE2  CE1  HE1 
+ <HDP 28>:  ND1  CD2  CG   CB  
+ <HDP 78>:  -M   CA   N    H   
+ <HDP 78>:  CA   +M   C    O   
+ <HDP 78>:  CG   CE1  ND1  HD1 
+ <HDP 78>:  CE1  CD2  NE2  HE2 
+ <HDP 78>:  CG   NE2  CD2  HD2 
+ <HDP 78>:  ND1  NE2  CE1  HE1 
+ <HDP 78>:  ND1  CD2  CG   CB  
+ <HDP 130>:  -M   CA   N    H   
+ <HDP 130>:  CA   +M   C    O   
+ <HDP 130>:  CG   CE1  ND1  HD1 
+ <HDP 130>:  CE1  CD2  NE2  HE2 
+ <HDP 130>:  CG   NE2  CD2  HD2 
+ <HDP 130>:  ND1  NE2  CE1  HE1 
+ <HDP 130>:  ND1  CD2  CG   CB  
+ <HDP 243>:  -M   CA   N    H   
+ <HDP 243>:  CA   +M   C    O   
+ <HDP 243>:  CG   CE1  ND1  HD1 
+ <HDP 243>:  CE1  CD2  NE2  HE2 
+ <HDP 243>:  CG   NE2  CD2  HD2 
+ <HDP 243>:  ND1  NE2  CE1  HE1 
+ <HDP 243>:  ND1  CD2  CG   CB  
+ <HDP 284>:  -M   CA   N    H   
+ <HDP 284>:  CA   +M   C    O   
+ <HDP 284>:  CG   CE1  ND1  HD1 
+ <HDP 284>:  CE1  CD2  NE2  HE2 
+ <HDP 284>:  CG   NE2  CD2  HD2 
+ <HDP 284>:  ND1  NE2  CE1  HE1 
+ <HDP 284>:  ND1  CD2  CG   CB  
+ <HDP 346>:  -M   CA   N    H   
+ <HDP 346>:  CA   +M   C    O   
+ <HDP 346>:  CG   CE1  ND1  HD1 
+ <HDP 346>:  CE1  CD2  NE2  HE2 
+ <HDP 346>:  CG   NE2  CD2  HD2 
+ <HDP 346>:  ND1  NE2  CE1  HE1 
+ <HDP 346>:  ND1  CD2  CG   CB  
+ total 1514 improper torsions applied
+ 42 improper torsions in old prep form
+Building H-Bond parameters.
+Incorporating Non-Bonded adjustments.
+Not Marking per-residue atom chain types.
+Marking per-residue atom chain types.
+  (Residues lacking connect0/connect1 - 
+   these don't have chain types marked:
+
+	res	total affected
+
+	CPRO	1
+	NLYS	1
+  )
+ (no restraints)
+	Quit
+
+Exiting LEaP: Errors = 0; Warnings = 4; Notes = 1.

@@ -1,0 +1,36 @@
+Determining Asn, Gln, His flips, adding H atoms, and assigning His default deprotonation state (delta/epsilon)
+SUCCESS
+Standardizing atom/residue names
+SUCCESS
+Adding missing atoms from AMBER databases 
+and BABEL databases 
+<br> WARNING: H++ is automatically processing your ligand input. 
+This is always a tricky business (e.g. ligands may contain unanticipated characteristics ), 
+therefore we strongly recommended that you closely review the following log messages. In case of an error, or if in doubt, prepare the ligand input manually as described in the FAQ. <br>
+NO LIGAND_NET_CHARGE is availabe from the INPUT PDB.
+Assuming 0 
+ 
+SUCCESS
+Optimizing positions of the added hydrogens      
+SUCCESS
+Adding atomic charges and radii from AMBER databases
+SUCCESS
+Checking file for consistency
+SUCCESS
+Identifying titratable sites... 
+SUCCESS: found 149 sites.
+Setting up Electrostatic Calculations
+SUCCESS
+Calculating using Poisson-Boltzmann...
+SUCCESS
+Computing partition sum via Monte-Carlo algorithm...
+SUCCESS
+Number of sites is more than 25, no energy diagram available
+ Adding/Removing protons according to the computed pKs... 
+Preparing AMBER coordinate/topology files...
+Re-optimizing positions of the added hydrogens...
+SUCCESS
+Reindexing...
+Collecting data ...
+SUCCESS
+DONE
